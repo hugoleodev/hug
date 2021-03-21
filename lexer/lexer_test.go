@@ -87,6 +87,18 @@ func TestNextToken(t *testing.T) {
 			{token.IDENT, "nine"},
 			{token.RPAREN, ")"},
 			{token.SEMICOLON, ";"},
+			{token.BANG, "!"},
+			{token.MINUS, "-"},
+			{token.SLASH, "/"},
+			{token.ASTERISK, "*"},
+			{token.INT, "9"},
+			{token.SEMICOLON, ";"},
+			{token.INT, "9"},
+			{token.LT, "<"},
+			{token.INT, "13"},
+			{token.GT, ">"},
+			{token.INT, "9"},
+			{token.SEMICOLON, ";"},
 			{token.EOF, ""},
 		}
 
