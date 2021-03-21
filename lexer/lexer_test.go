@@ -43,6 +43,8 @@ func TestNextToken(t *testing.T) {
 		};
 
 		let result = add(thirteen, nine);
+		!-/*9;
+		9 < 13 > 9;
 		`
 
 		tests := []struct {
